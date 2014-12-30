@@ -26,6 +26,8 @@ alias hp="heroku push origin master"
 
 alias e="emacs"
 
+alias cdp="cd ~/Google\ Drive/Programming/"
+
 ###########
 # Functions
 ###########
