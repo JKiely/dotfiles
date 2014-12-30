@@ -1,0 +1,7 @@
+[user]
+	name = John
+	email = jjkiely@gmail.com
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/john/.gitignore_global
