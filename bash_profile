@@ -26,6 +26,7 @@ alias ga="git add -A"
 alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
+alias gpl="git pull origin master"
 alias hc="heroku create"
 alias hp="heroku push origin master"
 alias hm="heroku create && heroku push origin master"
@@ -50,3 +51,4 @@ gacp () {
      git commit -m "$1"
      git push
 }
+
