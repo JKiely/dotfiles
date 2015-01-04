@@ -13,3 +13,8 @@
 (global-set-key [M-mouse-1] 'mouse-set-point)
 
 (global-set-key (kbd "C-;") 'comment-region)
+
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
