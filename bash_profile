@@ -20,6 +20,7 @@ alias sr="open SpecRunner.html"
 alias g="grunt"
 
 alias py="python"
+alias pyman="python manage.py"
 
 alias gi="git init"
 alias ga="git add -A"
