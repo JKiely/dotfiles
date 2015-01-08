@@ -10,7 +10,7 @@ mkdir $olddir
 
 
 for file in $files; do
-    mv ~/.$file ~/dotfiles_old/
+    mv ~/.$file ~/$olddir/
     ln -s $dir/$file ~/.$file
 done
 
