@@ -19,6 +19,7 @@ alias r="rspec"
 alias sr="open SpecRunner.html"
 alias g="grunt"
 
+alias rb="ruby"
 alias py="python"
 alias pyman="python manage.py"
 
