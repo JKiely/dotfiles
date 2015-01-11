@@ -19,6 +19,8 @@ alias r="rspec"
 alias sr="open SpecRunner.html"
 alias g="grunt"
 
+alias migrails="bin/rake db:migrate && bin/rake db:migrate RAILS_ENV=test"
+
 alias rb="ruby"
 alias py="python"
 alias pyman="python manage.py"
@@ -36,6 +38,7 @@ alias hp="git push heroku master"
 alias hm="heroku create && git push heroku master"
 alias hl="heroku logs"
 alias ho="heroku open"
+alias hmig="heroku run rake db:migrate"
 
 alias trm="touch README.md"
 
