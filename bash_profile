@@ -29,10 +29,16 @@ alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
 alias gpl="git pull origin master"
+alias gac="git add -A && git commit -m"
+
 alias hc="heroku create"
 alias hp="git push heroku master"
 alias hm="heroku create && git push heroku master"
+alias hl="heroku logs"
+alias ho="heroku open"
+
 alias trm="touch README.md"
+
 
 alias e="emacs"
 alias sbl="subl ."
