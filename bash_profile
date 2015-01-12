@@ -13,6 +13,8 @@ alias ll="ls -lhA"
 alias mkdir="mkdir -pv"
 alias cd..="cd .."
 alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 alias t="touch"
 
 alias r="rspec"
