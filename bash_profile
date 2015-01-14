@@ -20,6 +20,7 @@ alias t="touch"
 alias r="rspec"
 alias sr="open SpecRunner.html"
 alias g="grunt"
+alias cu="cucumber"
 
 alias migrails="bin/rake db:migrate && bin/rake db:migrate RAILS_ENV=test"
 
