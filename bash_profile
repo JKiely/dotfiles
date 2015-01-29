@@ -22,8 +22,6 @@ alias sr="open SpecRunner.html"
 alias g="grunt"
 alias cu="cucumber"
 
-alias migrails="bin/rake db:migrate && bin/rake db:migrate RAILS_ENV=test"
-
 alias rb="ruby"
 alias py="python"
 alias pyman="python manage.py"
@@ -35,6 +33,8 @@ alias gp="git push"
 alias gs="git status"
 alias gpl="git pull origin master"
 alias gac="git add -A && git commit -m"
+alias gco="git checkout"
+alias gplf="git pull"
 
 alias hc="heroku create"
 alias hp="git push heroku master"
