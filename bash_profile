@@ -60,7 +60,7 @@ mcd () {
 
 gacp () {
      git add -A
-     git commit -m "$@"
+     git commit -m $1
      git push
 }
 
