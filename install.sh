@@ -2,7 +2,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old             
-files="bash_profile bashrc gitconfig gitignore_global emacs.d"
+files="bash_profile gitignore_global emacs.d"
 
 mkdir $olddir
 

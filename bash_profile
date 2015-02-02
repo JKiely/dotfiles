@@ -49,8 +49,6 @@ alias trm="touch README.md"
 alias e="emacs"
 alias sbl="subl ."
 
-alias cdp="cd ~/Google\ Drive/Programming/"
-
 ###########
 # Functions
 ###########
