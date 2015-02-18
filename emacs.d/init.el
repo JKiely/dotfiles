@@ -14,13 +14,23 @@
 
 (global-set-key (kbd "C-;") 'comment-region)
 
+(add-to-list 'load-path "~/.emacs.d/")
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 (setq indent-line-function 'insert-tab)
+
+(global-linum-mode 1)
+
+(setq inhibit-startup-message t
+inhibit-startup-echo-area-message t) 
+
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
 
 (when (>= emacs-major-version 24)
   (require 'package)
   (package-initialize)
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
   )
+
