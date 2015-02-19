@@ -10,11 +10,19 @@
 
 ;;(define-key c-mode-base-map (kbd "C-/") 'comment-or-uncomment-line-or-region) 
 
+(add-to-list 'load-path "~/.emacs.d/")
+;(defvar my-packages '(paredit idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
+;(package-initialize)
+;(dolist (p my-packages)
+;    (when (not (package-installed-p p))
+;          (package-install p)))
+
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+
 (global-set-key [M-mouse-1] 'mouse-set-point)
 
 (global-set-key (kbd "C-;") 'comment-region)
-
-(add-to-list 'load-path "~/.emacs.d/")
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
