@@ -28,6 +28,9 @@
 (setq-default tab-width 2)
 (setq indent-line-function 'insert-tab)
 
+(add-hook 'python-mode-hook '(lambda ()
+                              (setq python-indent 2)))
+
 (global-linum-mode 1)
 
 (setq inhibit-startup-message t
