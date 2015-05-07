@@ -1,9 +1,9 @@
 [user]
-	name = John
-	email = jjkiely@gmail.com
+  name = John
+  email = jjkiely@gmail.com
 [core]
-	autocrlf = input
-	safecrlf = true
+  autocrlf = input
+  safecrlf = true
   excludesfile = home/john/.gitignore_global
 [push]
-	default = matching
+  default = matching
