@@ -19,7 +19,6 @@ alias cu="cucumber"
 
 alias rb="ruby"
 alias py="python"
-alias pyman="python manage.py"
 
 alias gi="git init"
 alias ga="git add"
@@ -41,9 +40,7 @@ alias hmig="heroku run rake db:migrate"
 
 alias trm="touch README.md"
 
-
 alias e="emacs -nw"
-alias sbl="subl ."
 
 ###########
 # Functions
