@@ -1,12 +1,20 @@
 (add-to-list 'load-path "~/.emacs.d/")
-;(defvar my-packages '(paredit idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
-;(package-initialize)
-;(dolist (p my-packages)
-;    (when (not (package-installed-p p))
-;          (package-install p)))
 
-(require 'package)
-(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+  )
+
+
+
+
+(defvar my-packages '(org paredit idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
+(package-initialize)
+(dolist (p my-packages)
+    (when (not (package-installed-p p))
+          (package-install p)))
 
 (global-set-key [M-mouse-1] 'mouse-set-point)
 
@@ -27,9 +35,4 @@ inhibit-startup-echo-area-message t)
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
 
-(when (>= emacs-major-version 24)
-  (require 'package)
-  (package-initialize)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-  )
 
