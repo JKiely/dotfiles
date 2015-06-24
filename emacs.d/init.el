@@ -8,9 +8,7 @@
   )
 
 
-
-
-(defvar my-packages '(org paredit idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
+(defvar my-packages '(org idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
 (package-initialize)
 (dolist (p my-packages)
     (when (not (package-installed-p p))
@@ -35,4 +33,4 @@ inhibit-startup-echo-area-message t)
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
 
-
+(setq magit-last-seen-setup-instructions "1.4.0")
