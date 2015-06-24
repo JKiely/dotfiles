@@ -8,7 +8,7 @@
   )
 
 
-(defvar my-packages '(org idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
+(defvar my-packages '(org rspec-mode idle-highlight-mode ido-ubiquitous find-file-in-project magit smex scpaste))
 (package-initialize)
 (dolist (p my-packages)
     (when (not (package-installed-p p))
