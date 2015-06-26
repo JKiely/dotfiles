@@ -40,7 +40,7 @@ alias hmig="heroku run rake db:migrate"
 
 alias trm="touch README.md"
 
-alias e="emacs -nw"
+alias e="emacs"
 
 ###########
 # Functions
