@@ -12,35 +12,29 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias t="touch"
 
-alias r="rspec"
-alias sr="open SpecRunner.html"
-alias g="grunt"
-alias cu="cucumber"
-
 alias rb="ruby"
-alias py="python"
+alias py2="python"
+alias py="python3"
 
 alias gi="git init"
 alias ga="git add"
-alias gaa="git add -A"
+alias gaa="git add ."
 alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
 alias gpl="git pull origin master"
-alias gac="git add -A && git commit -m"
+alias gac="git add . && git commit -m"
 alias gco="git checkout"
 alias gplf="git pull"
 
-alias hc="heroku create"
-alias hp="git push heroku master"
-alias hm="heroku create && git push heroku master"
-alias hl="heroku logs"
-alias ho="heroku open"
-alias hmig="heroku run rake db:migrate"
 
-alias trm="touch README.md"
+alias hp="git push heroku master"
+alias ho="heroku open"
+
 
 alias e="emacs"
+
+alias venv="source venv/bin/activate"
 
 ###########
 # Functions
@@ -52,7 +46,7 @@ mcd () {
 }
 
 gacp () {
-     git add -A
+     git add .
      git commit -m $1
      git push
 }

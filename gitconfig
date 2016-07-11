@@ -4,6 +4,6 @@
 [core]
   autocrlf = input
   safecrlf = true
-  excludesfile = home/john/.gitignore_global
+	excludesfile = /Users/jkiely/.gitignore_global
 [push]
   default = matching
