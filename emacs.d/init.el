@@ -19,6 +19,8 @@
 (add-hook 'python-mode-hook '(lambda ()
                               (setq python-indent 2)))
 
+(setenv "PATH" (concat (getenv "PATH") ":/Users/jkiely/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin"))
+
 (global-linum-mode 1)
 
 (setq inhibit-startup-message t

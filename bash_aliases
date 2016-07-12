@@ -15,6 +15,7 @@ alias t="touch"
 alias rb="ruby"
 alias py2="python"
 alias py="python3"
+alias ipy="ipython"
 
 alias gi="git init"
 alias ga="git add"
