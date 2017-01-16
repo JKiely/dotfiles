@@ -35,7 +35,7 @@ alias ho="heroku open"
 
 alias e="emacs"
 
-alias venv="source venv/bin/activate"
+alias venv="source /Users/jkiely/venv/bin/activate"
 
 ###########
 # Functions

@@ -2,7 +2,7 @@
   name = John
   email = jjkiely@gmail.com
 [core]
-  autocrlf = input
+	autocrlf = false
   safecrlf = true
 	excludesfile = /Users/jkiely/.gitignore_global
 [push]
